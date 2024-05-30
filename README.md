@@ -1,4 +1,26 @@
-# SpikeZIP-TF: Conversion is All You Need for Transformer-based SNN
+
+
+<div align="center"><h1>&nbsp;SpikeZIP-TF: Conversion is All You Need for Transformer-based SNN</h1></div>
+
+
+<p align="center">
+| <a href="http://arxiv.org/"><b>Paper</b></a> | <a href="http://arxiv.org/"><b>Blog</b></a> |
+</p>
+
+
+<p align="center">
+  <a href="https://opensource.org/license/mulanpsl-2-0">
+    <img src="https://img.shields.io/badge/License-MuLan_PSL_2.0-blue.svg" alt="License">
+  </a>
+  <a href="https://github.com/">
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintenance">
+  </a>
+  <a href="https://github.com/">
+    <img src="https://img.shields.io/badge/Contributions-welcome-brightgreen.svg?style=flat" alt="Contributions welcome">
+  </a>
+</p>
+
+
 ![image](https://github.com/Intelligent-Computing-Research-Group/SpikeZIP_transformer/assets/74498528/91609adb-56f2-49e1-92fe-9596b38cb9f4)
 This is a PyTorch/GPU implementation of the paper [SpikeZIP-TF: Conversion is All You Need for Transformer-based SNN](https://openreview.net/forum?id=NeotatlYOL)
 
