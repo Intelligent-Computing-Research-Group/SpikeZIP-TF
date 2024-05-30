@@ -55,6 +55,26 @@ NCCL_P2P_DISABLE=1 OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torc
 ## Convert your QANN model to SNN
 The following table provides the pre-trained QANN used in the paper:
 
+<table><tbody>
+<!-- START TABLE -->
+<!-- TABLE HEADER -->
+<th valign="bottom"></th>
+<th valign="bottom">ViT-Small-ReLU-Q32</th>
+<th valign="bottom">ViT-Base-ReLU-Q32</th>
+<th valign="bottom">ViT-Large-ReLU-Q32</th>
+<!-- TABLE BODY -->
+<tr><td align="left">pre-trained checkpoint</td>
+<td align="center"><a href="https://huggingface.co/XianYiyk/SpikeZIP-TF-vit-small-patch16-relu-q32/resolve/main/vit-small-imagenet-relu-q32-81.59.pth">download</a></td>
+<td align="center"><a href="https://huggingface.co/XianYiyk/SpikeZIP-TF-vit-base-patch16-relu-q32/resolve/main/vit-base-imagenet-relu-q32-82.83.pth">download</a></td>
+<td align="center"><a href="https://huggingface.co/XianYiyk/SpikeZIP-TF-vit-large-patch16-relu-q32/resolve/main/vit-large-imagenet-relu-q32-83.86.pth">download</a></td>
+</tr>
+<tr><td align="left">md5</td>
+<td align="center"><tt>8207d3e</tt></td>
+<td align="center"><tt>7edba1d</tt></td>
+<td align="center"><tt>d83936c</tt></td>
+</tr>
+</tbody></table>
+
 
 Prepare the ImageNet dataset and run the scripts below:
 ```
