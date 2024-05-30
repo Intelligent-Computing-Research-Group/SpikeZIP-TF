@@ -16,6 +16,26 @@ url={https://openreview.net/forum?id=NeotatlYOL}
 ## Train the Quantized-ANN with pretrain model:
 The following table provides the pre-trained checkpoints used in the paper:
 
+<table><tbody>
+<!-- START TABLE -->
+<!-- TABLE HEADER -->
+<th valign="bottom"></th>
+<th valign="bottom">ViT-Small-ReLU</th>
+<th valign="bottom">ViT-Base-ReLU</th>
+<th valign="bottom">ViT-Large-ReLU</th>
+<!-- TABLE BODY -->
+<tr><td align="left">pre-trained checkpoint</td>
+<td align="center"><a href="https://huggingface.co/XianYiyk/SpikeZIP-TF-vit-small-patch16-relu/resolve/main/vit-small-patch16-relu-82.34.pth">download</a></td>
+<td align="center"><a href="https://huggingface.co/XianYiyk/SpikeZIP-TF-vit-base-patch16-relu/resolve/main/vit_base_patch16_ReLU_83.458.pth">download</a></td>
+<td align="center"><a href="https://huggingface.co/XianYiyk/SpikeZIP-TF-vit-large-patch16-relu/resolve/main/vit-large-imagenet-relu-85.41.pth">download</a></td>
+</tr>
+<tr><td align="left">md5</td>
+<td align="center"><tt>8cad7c</tt></td>
+<td align="center"><tt>b8b06e</tt></td>
+<td align="center"><tt>9bdbb0</tt></td>
+</tr>
+</tbody></table>
+
 Prepare the ImageNet dataset and run the scripts below:
 ```
 NCCL_P2P_DISABLE=1 OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.run --nproc_per_node=4 --master_port='29500' main_finetune_distill.py \
