@@ -26,7 +26,10 @@
 ## Contents
 - [News](#news)
 - [Introduction](#introduction)
-- [Proceedure](#Proceedure)
+- [Usage](#Usage)
+  - [Train](#Train)
+  - [Conversion](#Conversion)
+  - [Evaluation](#Evaluation) 
 
 ## News
 
@@ -36,21 +39,25 @@
 
 ![image](https://github.com/Intelligent-Computing-Research-Group/SpikeZIP_transformer/assets/74498528/91609adb-56f2-49e1-92fe-9596b38cb9f4)
 
+
 This is the official project repository for the following paper. If you find this repository helpful, Please kindly cite:
 ```
 @inproceedings{
-anonymous2024spikeziptf,
+spikeziptf2024,
 title={SpikeZIP-TF: Conversion is All You Need for Transformer-based SNN},
 author={Kang You=, Zekai Xu=, Chen Nie, Zhijie Deng, Xiang Wang, Qinghai Guo, Zhezhi He},
 booktitle={Forty-first International Conference on Machine Learning (ICML)},
 year={2024}
 }
 ```
-=: indicates equal contribution.
+:fire: =: indicates equal contribution.
 
-## Proceedure
+## Usage
 
-### Train the Quantized-ANN with pretrain model:
+### Train
+
+Train the Quantized-ANN with pretrain model.
+
 The following table provides the pre-trained checkpoints used in the paper:
 
 <table><tbody>
@@ -89,7 +96,10 @@ NCCL_P2P_DISABLE=1 OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torc
     --mode "QANN_QAT" --level 16 --act_layer relu --act_layer_teacher relu --temp 2.0 --wandb --print_freq 200 --define_params --mean 0.5 0.5 0.5 --std 0.5 0.5 0.5
 ```
 
-### Convert your QANN model to SNN
+### Conversion
+
+Convert your QANN model to SNN.
+
 The following table provides the pre-trained QANN used in the paper:
 
 <table><tbody>
@@ -128,7 +138,9 @@ NCCL_P2P_DISABLE=1 OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torc
     --mode "SNN" --act_layer relu --eval --ratio 0.5 --time_step 64 --encoding_type analog --level 16 --weight_quantization_bit 32 --define_params --mean 0.5 0.5 0.5 --std 0.5 0.5 0.5
 ```
 
-### Evaluate the energy of your SNN model
+### Evaluation
+Evaluate the energy of your SNN model
+
 By using QANN trained by yourself or provided in pretrained QANN table above, run the the scripts below to evaluate the energy of your SNN model:
 ```
 CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --master_port='29501' main_finetune.py \
