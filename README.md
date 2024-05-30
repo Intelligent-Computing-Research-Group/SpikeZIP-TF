@@ -30,9 +30,9 @@ The following table provides the pre-trained checkpoints used in the paper:
 <td align="center"><a href="https://huggingface.co/XianYiyk/SpikeZIP-TF-vit-large-patch16-relu/resolve/main/vit-large-imagenet-relu-85.41.pth">download</a></td>
 </tr>
 <tr><td align="left">md5</td>
-<td align="center"><tt>8cad7c</tt></td>
-<td align="center"><tt>b8b06e</tt></td>
-<td align="center"><tt>9bdbb0</tt></td>
+<td align="center"><tt>929f93b</tt></td>
+<td align="center"><tt>8d49104</tt></td>
+<td align="center"><tt>91bded0</tt></td>
 </tr>
 </tbody></table>
 
