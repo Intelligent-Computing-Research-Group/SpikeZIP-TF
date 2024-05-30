@@ -1,5 +1,5 @@
 <p align="center">
-<img src="spikezip_logo.webp" alt="spikezip_logo" width="220" align="center">
+<img src="spikezip_logo.png" alt="spikezip_logo" width="220" align="center">
 </p>
 
 <div align="center"><h1>&nbsp;SpikeZIP-TF: Conversion is All You Need for Transformer-based SNN</h1></div>
