@@ -40,11 +40,10 @@ This is a PyTorch/GPU implementation of the paper [SpikeZIP-TF: Conversion is Al
 ```
 @inproceedings{
 anonymous2024spikeziptf,
-title={Spike{ZIP}-{TF}: Conversion is All You Need for Transformer-based {SNN}},
-author={Anonymous},
+title={SpikeZIP-TF: Conversion is All You Need for Transformer-based SNN},
+author={Kang You, Zekai Xu, Chen Nie, Zhijie Deng, Xiang Wang, Qinghai Guo, Zhezhi He},
 booktitle={Forty-first International Conference on Machine Learning},
-year={2024},
-url={https://openreview.net/forum?id=NeotatlYOL}
+year={2024}
 }
 ```
 
