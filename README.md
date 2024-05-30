@@ -35,14 +35,14 @@
 ## Introduction
 
 ![image](https://github.com/Intelligent-Computing-Research-Group/SpikeZIP_transformer/assets/74498528/91609adb-56f2-49e1-92fe-9596b38cb9f4)
-This is a PyTorch/GPU implementation of the paper [SpikeZIP-TF: Conversion is All You Need for Transformer-based SNN](https://openreview.net/forum?id=NeotatlYOL)
 
+This is the official project repository for the following paper. If you find this repository helpful, Please kindly cite:
 ```
 @inproceedings{
 anonymous2024spikeziptf,
 title={SpikeZIP-TF: Conversion is All You Need for Transformer-based SNN},
 author={Kang You, Zekai Xu, Chen Nie, Zhijie Deng, Xiang Wang, Qinghai Guo, Zhezhi He},
-booktitle={Forty-first International Conference on Machine Learning},
+booktitle={Forty-first International Conference on Machine Learning (ICML)},
 year={2024}
 }
 ```
