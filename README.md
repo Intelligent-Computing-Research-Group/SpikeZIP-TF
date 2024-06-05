@@ -45,7 +45,7 @@ This is the official project repository for the following paper. If you find thi
 @inproceedings{
 spikeziptf2024,
 title={SpikeZIP-TF: Conversion is All You Need for Transformer-based SNN},
-author={Kang You=, Zekai Xu=, Chen Nie, Zhijie Deng, Xiang Wang, Qinghai Guo, Zhezhi He},
+author={You, Kang= and Xu, Zekai= and Nie, Chen and Deng, Zhijie and Wang, Xiang and Guo, Qinghai and He, Zhezhi},
 booktitle={Forty-first International Conference on Machine Learning (ICML)},
 year={2024}
 }
