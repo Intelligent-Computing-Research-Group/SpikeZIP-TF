@@ -34,6 +34,7 @@
 ## News
 
 - [2024/6] Code of SpikeZip-TF is released!
+- [2024/12] Code of SpikeZip-TF in NLU tasks is released! You can view the code by switching to the NLU_tasks branch !! 
 
 ## Introduction
 
