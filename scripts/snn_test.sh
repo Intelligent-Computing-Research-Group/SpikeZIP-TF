@@ -1,0 +1,1 @@
+python main.py --mode SNN --level 8 --qann_pretrained /home/kang_you/SpikeZIP_bert/output/Roberta-sst2-QANN-QAT-8/pytorch_model.bin --epochs -1

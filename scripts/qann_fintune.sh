@@ -1,0 +1,1 @@
+python main.py --mode QANN-QAT --level 8
